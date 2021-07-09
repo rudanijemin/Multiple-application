@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'calcultor/calculator.dart';
 
 class maindrawer extends StatelessWidget {
   @override
@@ -45,14 +46,22 @@ class maindrawer extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.arrow_forward),
             title: Text(
-              "calculatar",
+              "calculator",
               style: TextStyle(
                 fontSize: 18,
               ),
             ),
-            onTap: (){
-              
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return calculator();
+                  },
+                ),
+              );
             },
+
           ),
           ListTile(
             leading: Icon(Icons.arrow_forward),
