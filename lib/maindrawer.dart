@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'calcultor/calculator.dart';
+import 'speech/speechToText.dart';
+
 
 class maindrawer extends StatelessWidget {
   @override
@@ -71,12 +73,22 @@ class maindrawer extends StatelessWidget {
                 fontSize: 18,
               ),
             ),
-            onTap: null,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return calculator();
+                  },
+                ),
+              );
+            },
+
           ),
           ListTile(
             leading: Icon(Icons.arrow_forward),
             title: Text(
-              "xyphone",
+              "Music Player",
               style: TextStyle(
                 fontSize: 18,
               ),

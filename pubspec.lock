@@ -8,6 +8,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.5.0"
+  avatar_glow:
+    dependency: "direct main"
+    description:
+      name: avatar_glow
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.2.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -67,6 +74,20 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  highlight_text:
+    dependency: "direct main"
+    description:
+      name: highlight_text
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.7.2"
+  json_annotation:
+    dependency: transitive
+    description:
+      name: json_annotation
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.1.1"
   matcher:
     dependency: transitive
     description:
@@ -107,6 +128,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
+  speech_to_text:
+    dependency: "direct main"
+    description:
+      name: speech_to_text
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.7.0"
   stack_trace:
     dependency: transitive
     description:
@@ -158,3 +186,4 @@ packages:
     version: "2.1.0"
 sdks:
   dart: ">=2.12.0 <3.0.0"
+  flutter: ">=1.10.0"

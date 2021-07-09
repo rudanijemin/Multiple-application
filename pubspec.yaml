@@ -13,7 +13,12 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
-  math_expressions: ^1.1.1
+  math_expressions: ^1.1.1 #calculator
+
+  speech_to_text: ^2.3.0 #voice input using microphone
+  highlight_text: ^0.7.2 #heghlight word in string
+  avatar_glow: ^1.2.0  # glowing animation
+
 
 dev_dependencies:
   flutter_test:

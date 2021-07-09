@@ -3,6 +3,8 @@
    <application
         android:label="drawer"
         android:icon="@mipmap/ic_launcher">
+       <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+       <uses-permission android:name="android.permission.INTERNET"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
